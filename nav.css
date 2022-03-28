@@ -1,0 +1,150 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+nav
+{
+    background-color: #f3971b;
+}
+ul
+{
+    display: flex;
+}
+li
+{
+    padding: 20px;
+  
+}
+li a{
+    color:rgb(255, 254, 254);
+}
+.one label input
+{
+    margin-top: 12px;
+    margin-left: 500px;
+    padding: 10px;
+    font-size: 15px;
+   color: black;
+}
+.two 
+
+{
+ height: 87vh;  
+ width: 100%;
+/* background-image: url(sea.jpg);
+ background-repeat: none; */
+ background-size: cover;
+ background-position: center;
+animation: slider 10s infinite;
+border: 2px solid rgb(221, 207, 207) ;
+margin-left: -3px;
+margin-right: 50px;
+}
+@keyframes slider{
+    0%{
+        background-image: url(splash1.avif);
+    }
+    20%{
+        background-image: url(spalsh2.avif);
+    }
+    25%
+    {
+        background-image: url(splash3.avif);
+    }
+   40%
+   {
+       background-image: url(spalsh4.avif);
+   }
+    55%
+    {
+        background-image:url(splas5.avif) ;
+    }
+    70%
+    {
+        background-image:url(splash6.avif) ;
+    }
+
+    89%
+    {
+        background-image: url(spalsh4.avif);
+    }
+
+    100%
+    {
+        background-image: url(spalsh2.avif);
+    }
+
+}
+
+.three h1{
+    color: black;
+    font-size: 43px;
+    
+}
+.three{
+    /* border: 1px solid white;
+    width:47%;
+    padding: 1%; */
+    margin-left: 29%;
+    margin-top: 8%;
+    font-weight: 200;
+    margin-bottom: 1%;
+    color: white;
+}
+.four h1
+{
+    width: 100%;
+    
+    background-color: #f3971b;
+    color: white;
+    margin-top: 2px;
+    text-align: center;
+}
+
+#five p{
+    color: white;
+    background-color: #f3971b;
+    font-size: 20px;
+   
+}
+ 
+
+.twelve img{
+    height: 39vh;
+    width:30%;
+    margin-right: 1%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 0%;
+}
+.eleven h1{
+    text-align: center;
+    color: #f3971b;
+}
+.eleven{
+    /* border:2px solid red; */
+    width: 102%;
+}
+.thirteen
+
+{
+    border: 3px solid rgb(252, 248, 248);
+    width: 100%;
+    height:34vh;
+    text-align: center;
+    background-color: #f3971b;
+
+}
+.fourteen span{
+    padding: 10px;
+}
+.fourteen
+{
+    width: 100%;
+}
+
+   
